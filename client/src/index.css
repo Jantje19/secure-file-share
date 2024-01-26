@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--primary-color-default: #673ab7;
+	--primary-color-light: #7e57c2;
+	--primary-color-dark: #4527a0;
+
+	accent-color: var(--primary-color-default);
+}
+
+body, #root {
+	width: 100vw;
+	height: 100vh;
+}
+
+::-webkit-progress-bar {
+	background-color: white;
+}
+::-webkit-progress-value {
+	background-color: var(--primary-color-default);
+}
+::-moz-progress-bar {
+	background-color: var(--primary-color-default);
+}

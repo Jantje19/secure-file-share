@@ -1,0 +1,23 @@
+{
+  "name": "secure-file-share",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "eslint": "^8.56.0",
+    "eslint-config-duodeka": "bitbucket:duodeka/eslint-config-duodeka",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "prettier": "^3.2.2",
+    "typescript": "5.4.0-dev.20240120"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
